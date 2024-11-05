@@ -1,22 +1,23 @@
-@import url("styles/header.css");
-@import url("styles/banner.css");
-@import url("styles/carrossel.css");
-@import url("styles/topicos.css");
-@import url("styles/contato.css");
-@import url("styles/rodapé.css");
-
 :root {
-    --cor-de-fundo: #D1D1D1; /* Nova cor */
-    --branco: #FFFFFF;       /* Mantém o branco */
-    --laranja: #FF4500;      /* Nova cor */
-    --azul-degrade: linear-gradient(97.54deg, #000080 35.49%, #1E90FF 165.37%); /* Nova cor degradê */
-    --fonte-principal: "Poppins"; /* Corrigido */
-    --azul: #4169E1;         /* Nova cor */
+    --cor-de-fundo: #D1D1D1; 
+    --branco: #FFFFFF;
+    --laranja: #FF6347; /* Nova cor para substituir o laranja */
+    --azul-degrade: linear-gradient(97.54deg, #000080 35.49%, #1E90FF 165.37%);
+    --fonte-principal: "Poppins"; 
+    --azul: #4169E1;
+    --cor-texto: #333333; /* Nova cor da fonte */
 }
 
 body {
     background-color: var(--cor-de-fundo);
-    font-family: var(--fonte-principal); /* Corrigido */
+    color: var(--cor-texto); /* Cor da fonte */
+    font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
+}
+
+/* Exemplo de uso da cor laranja em outros elementos */
+.button-laranja {
+    background-color: var(--laranja);
+    color: var(--branco); /* Caso o texto precise ser branco sobre o fundo */
 }
