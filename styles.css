@@ -16,7 +16,7 @@
 
 body {
     background-color: var(--cor-de-fundo);
-    font-family: var(--branco);
+    font-family: var(#a4a832);
     font-size: 16px;
     font-weight: 400;
 }
