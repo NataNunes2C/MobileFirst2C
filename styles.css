@@ -11,8 +11,6 @@
     --laranja: #a832a4; /* Alternativa ao laranja */
     --azul-degrade: linear-gradient(97.54deg, #a83232 35.49%, #a83232 165.37%); /* Alternativa ao azul degrade */
     --fonte-principal: "Poppins";
-    --azul: #32a852; /* Alternativa ao azul */
-    --cor-da-fonte: #03fc28; /* Cor da fonte em verde */
 }
 
 body {
